@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title>Form properties in html</title>
+    </head>
+
+    <body>
+        <a href="index.html">Home</a>
+        <a href="Tags$Tables 2.html">Services</a>
+        <a href="Form 3.html">Contact us</a>
+
+        <form>
+            <label for="username">Enter your name</label>
+            <input type="text" id="username" name="Name" required><br><br>
+
+            <label for="usernumber">Enter your phone number</label>
+            <input type="number" id="usernumber" name="phone"><br><br>
+
+            <label for="useremail">Enter your email</label>
+            <input type="email" id="useremail" name="email"><br><br>
+
+            <input type="file" accept="pics.jpg" multiple><br><br>
+            
+            <label for="date">Date</label>
+            <input type="date">
+
+            <p>Select your hobbies</p>
+            <input type="checkbox" id="running" name="hobbies" value="running"><label for="running">Running</label><br>
+            <input type="checkbox" id="walking" name="hobbies" value="walking"><label for="walking">Walking</label>
+            <p>Select your profession</p>
+            <input type="radio" id="Engineer" name="profession" value="Engineer"><label for="Engineer">Engineer</label><br>
+            <input type="radio" id="Doctor" name="profession" value="Doctor"><label for="Doctor">Doctor</label><br><br>
+
+            <label for="country">Select your country</label>
+            <select name="country" id="country">
+                <option value="" selected>--choose--</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="japan">Japan</option>
+                <option value="ghana">Ghana</option>
+                <option value="france">France</option>
+            </select><br><br>
+
+            <label for="comment">Give your opinion</label>
+            <textarea name="comment" id="comment" cols="20" rows="10"></textarea><br><br><br><br>
+
+            <input type="submit" value="Login">
+
+            <!-- <button type="submit">
+                Signup
+            </button> -->
+        </form>
+    </body>
+</html>
