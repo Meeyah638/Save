@@ -1,0 +1,28 @@
+a{
+    background-color: lightblue;
+    color: rgb(94, 57, 1);
+}
+h1{
+    color: rgb(36, 1, 68);
+    font-size: 50px;
+}
+
+p {
+    color: blue;
+    background-color: yellow;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+ul {
+    background-color: red;
+    color: white;
+    border: 5px solid black;
+    font-size: 50px;
+}
+
+ol {
+    background-color: red;
+    color: white;
+    border: 5px solid black;
+}
